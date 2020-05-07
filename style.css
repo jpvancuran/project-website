@@ -1,0 +1,117 @@
+/* Google Fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Fira+Sans+Condensed&display=swap');
+
+/* Body style with background */
+
+body {
+    background-image: url(images/y-so-serious-white.png);
+}
+
+/* Generic wrapper class to control content  */
+
+.wrapper {
+	width: 580px;
+	margin: auto;	
+}
+
+/* Portrait class with round border and shadow  */
+
+.portrait {
+    width: 300px;
+    border: solid 5px rgb(93, 96, 107);
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Logo class that formats logo font and size  */
+
+.titlelogo {
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(73, 75, 84);
+    font-size: 55px;
+    background-color: rgb(93, 96, 107, .5);
+    margin-top: 0px;
+    
+}
+
+/* Anchor style */
+
+a {
+    font-family: 'Dancing script', cursive;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+/* Style block for the navigation links at top of page */
+
+.navlinks p {
+    font-family: 'Dancing script', cursive;
+    font-size: 35px;
+    color: rgb(93, 96, 107);
+    text-align: right;
+}
+
+/* Style block for h2 headings */
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(93, 96, 107);
+}
+
+/* Style block for h3 headings */
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(93, 96, 107);
+}
+
+/* Paragraph styling  */
+
+p{
+    font-family: 'Fira Sans Condensed', 'cursive';
+    font-size: 20px;
+    color: rgb(93, 96, 107);
+}
+
+/* Project image styling with round border */
+
+.project-pics {
+    width: 200px;
+    border: solid 5px rgb(93, 96, 107);
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s;
+}
+
+/* Project image hover transform effect */
+
+.project-pics:hover {
+    transform: scale(1.5);
+}
+
+/* Style block for anchors not in the navigation bar */
+
+.wrapper a {
+    font-size: 25px;
+}
+
+/* Style block for unordered and ordered lists */
+
+.list {
+    font-family: 'Fira Sans Condensed', 'cursive';
+    font-size: 20px;
+    color: rgb(93, 96, 107);
+}
